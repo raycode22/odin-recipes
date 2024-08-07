@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/norse");
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding-left: 15%;
+}
+.navbar-brand > img {
+    height: 6em;
+    width: 22em;
+    padding-top: 1.2%;
+}
+ul {
+    float: right;
+    text-align: right;
+    padding-right: 24%;
+    padding-top: 3.8%;
+    font-weight: 800;
+}
+li {
+    display: inline-block;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 16px;
+    color: goldenrod;
+    transition: 0.2s;
+}
+li a:hover {
+    transform: scale(1.1);
+    color: grey;
+    text-shadow: 1px 1px goldenrod;
+}
+.main-content {
+    text-align: center;
+    margin: 10em;
+}
+
+.main-content h1 {
+    font-family: "Norse", sans-serif;
+    font-size: 10.2em;
+    font-weight: bold;
+    color: gray;
+    text-shadow: 5px 5px 1px goldenrod;
+}
+.main-content a {
+    text-decoration: none;
+}
+
+#brand {
+    font-family: "Norse", sans-serif;
+    font-size: 1em;
+    margin-top: -1em;
+}
+span {
+    color: red;
+}
+.recipes p {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 1.2em 0;
+    padding-top: 2em;
+}
+#collection a {
+    padding: 0.2em;
+    font-style: oblique;
+    display: block;
+    color: goldenrod;
+    transition: 0.2s;
+}
+#collection a:hover {
+    transform: scale(2);
+    font-style: oblique;
+    color: grey;
+    text-shadow: 1px 1px goldenrod;
+}
+
+.footer {
+    background-color: goldenrod;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+.fa-brands.fa-facebook {
+    color: blue;
+}
