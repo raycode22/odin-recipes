@@ -81,9 +81,10 @@ span {
 .footer {
     background-color: goldenrod;
     color: black;
-    padding: 15px;
+    padding: 1em;
     text-align: center;
 }
-.fa-brands.fa-facebook {
-    color: blue;
+.bx {
+    font-size: 28px;
+    font-weight: bold;
 }
