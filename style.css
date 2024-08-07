@@ -83,6 +83,11 @@ span {
     color: black;
     padding: 1em;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 .bx {
     font-size: 28px;
